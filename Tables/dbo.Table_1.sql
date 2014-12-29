@@ -13,7 +13,8 @@ CREATE TABLE [dbo].[Table_1] (
 		[ffffffff]       [nchar](10) COLLATE Latin1_General_CI_AI NULL,
 		[dd]             [nchar](10) COLLATE Latin1_General_CI_AI NULL,
 		[vvvvvvvvvv]     [nchar](10) COLLATE Latin1_General_CI_AI NULL,
-		[qweqwe]         [nchar](10) COLLATE Latin1_General_CI_AI NULL
+		[qweqwe]         [nchar](10) COLLATE Latin1_General_CI_AI NULL,
+		[dfgdfg]         [nchar](10) COLLATE Latin1_General_CI_AI NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Table_1] SET (LOCK_ESCALATION = TABLE)
